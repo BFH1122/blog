@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>我的随笔 - 博客后台</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/demo.css" rel="stylesheet"/>
+
+    
+    
+</head>
+<body>
+    <div id="top_nav">
+        <div id="right">
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="main">
+        <div id="main_head" style="margin-top: 50px;">
+            <div id="blog_title" style="margin-right: 15%"><a href="#">管理员的名字</a></div>
+            <div id="SiteTitle"><a href="http://www.cnblogs.com/"><img alt="logo" src="images/adminlogo.gif" /></a></div>
+        </div>
+        <div class="clear"></div>
+        <div id="main_body">
+            <div id="main_wrap">
+                <div id="main_container">
+                    <div id="tab_nav">
+                        <ul>
+                            <li><a href="javascript:navigate_tabs('a','first-tab');" class="buttons" id="first-tab">随笔</a></li>
+                            <li><a href="javascript:navigate_tabs('b','second-tab');" class="buttons" id="second-tab">文章</a></li>
+                            <li><a href="javascript:navigate_tabs('c','third-tab');" class="buttons" id="third-tab">日记</a></li>
+                            <li><a href="javascript:navigate_tabs('d','four-tab');" class="buttons" id="four-tab">评论</a></li>
+                            <li><a href="javascript:navigate_tabs('e','five-tab');" class="buttons" id="five-tab">链接</a></li>
+                            <li><a href="javascript:navigate_tabs('f','six-tab');" class="buttons" id="six-tab">相册</a></li>
+                            
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="sub_nav">
+                        &nbsp;
+                    </div>
+
+                    <div id="content_area">
+                        <div id="post_list" class="a" style="position: relative;">
+    						<table id="table"  cellspacing="0" cellpadding="0" border="0">
+        						
+    						</table>
+    						<div id="bottom" style="position:absolute;right:100px;bottom: -20px"></div>
+						</div>
+
+						<div class="b" style="display: none">
+							<em>L</em>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+						</div>
+						<div class="c" style="display: none">
+							<em>T</em>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+						</div>
+						<div class="d" style="display: none">
+							shdhsgh
+						</div>
+						<div class="e" style="display: none">
+							sdbhb
+						</div>
+						<div class="f" style="display: none">
+							dheb 
+						</div>
+                    </div>
+                </div>
+            </div>
+            <div id="left_container">
+                <div id="left_nav">
+                    <h2>操作</h2>
+                    <ul>
+                        <li><a href="#">添加新随笔</a></li>
+                        <li><a href="#">添加新文章</a></li>
+                        <li><a href="#">写日记</a></li>
+                        <li><a href="#">添加链接</a></li>
+                        <li><a href="#">添加相册</a></li>
+                    </ul>
+                </div>
+                <div id="sidebar_categories">
+                    <h2>分类</h2>
+                    <ul id="post_categories">
+                        <li><a href="#">[编辑分类]</a></li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+      
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/add_context.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		add(1);
+	}
+</script>
